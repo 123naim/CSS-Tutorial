@@ -1,0 +1,30 @@
+section {
+    margin-right: 15px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+}
+
+div {
+    display: grid;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    border: 1px solid green;
+}
+.div1{
+    background-image: radial-gradient(yellow, red, green);
+}
+.div2{
+    background-image: radial-gradient(yellow 5%, red 15%, green 60%);
+}
+.div3{
+    background-image: radial-gradient(circle, yellow, red, green);
+}
+.div4{
+    background-image:  repeating-radial-gradient(red, yellow 10%, green 15%);
+}

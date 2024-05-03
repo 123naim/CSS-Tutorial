@@ -1,0 +1,29 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: saddlebrown;
+    /* transition-property: width, height;
+    transition-duration: 2s; */
+    transition: width 2s;
+    transition-delay: 0.9s;
+    margin: 10px;
+}
+.div1{
+    transition-timing-function: linear;
+}
+.div2{
+    transition-timing-function: ease;
+}
+.div3{
+    transition-timing-function: ease-in;
+}
+.div4{
+    transition-timing-function: ease-out;
+}
+.div5{
+    transition-timing-function: ease-in-out;
+}
+
+div:hover{
+    width: 300px;
+}

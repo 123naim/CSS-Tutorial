@@ -1,0 +1,288 @@
+body {
+    /* background-color: #1d2a35; */
+}
+
+/* img:nth-child(1) {
+    width: 250px;
+    border: 1px solid tomato;
+    border-radius: 10px;
+}
+img:nth-child(2) {
+    width: 250px;
+    border: 1px solid tomato;
+    border-radius: 50%;
+}
+img:nth-child(3){
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+    width: 250px;
+}
+img:nth-child(4){
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+    width: 250px;
+}
+img:nth-child(4):hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+} */
+.resposive img {
+    max-width: 100%;
+}
+
+.center img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* Card Image */
+.main-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+.polaroid {
+    width: 300px;
+    background-color: white;
+    border-radius: 15px 15px 0 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.polaroid img {
+    border-radius: 9px 9px 0 0;
+}
+
+.container {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+
+/* Opacity */
+.opacity {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+    margin-bottom: 50px;
+}
+
+.opacity1 {
+    width: 350px;
+    opacity: 0.2;
+}
+
+.opacity2 {
+    width: 350px;
+    opacity: 0.7;
+}
+
+.opacity3 {
+    width: 350px;
+    opacity: 1;
+}
+
+
+/* Image Text */
+.imag-text-container {
+    position: relative;
+}
+
+.img-container img {
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+}
+
+.text-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: yellow;
+}
+
+.text-top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    background-color: yellow;
+}
+
+.text-bottom-left {
+    position: absolute;
+    bottom: 10px;
+    left: 16px;
+    background-color: yellow;
+}
+
+.text-top-right {
+    position: absolute;
+    top: 10px;
+    right: 16px;
+    background-color: yellow;
+}
+
+.text-bottom-right {
+    position: absolute;
+    bottom: 10px;
+    right: 16px;
+    background-color: yellow;
+}
+
+
+
+
+/* Image Hover Overlay */
+.headding-text {
+    font-size: 30px;
+    margin-top: 25px;
+}
+
+.sub-text {
+    font-size: 20px;
+    margin-top: -15px;
+}
+
+.hover-container {
+    margin: 50px auto;
+    background-color: #38444d;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 0 20px;
+    color: white;
+    width: 80%;
+    justify-items: center;
+    border-radius: 4px;
+}
+
+.fade-container {
+    position: relative;
+}
+
+.fade-container .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: #008CBA;
+    transition: .5s ease;
+}
+
+.fade-container:hover .overlay {
+    opacity: 1;
+}
+
+.fade-container .image {
+    width: 320px;
+}
+
+.fade-container .overlay .text {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    color: white;
+    background-color: #04aa6d;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    margin: 20px 0;
+    font-size: 18px;
+    transition: 0.4s;
+}
+
+.btn:hover {
+    background-color: hsl(159, 93%, 22%);
+}
+
+/* Fade Box Container */
+.fade-box-container {
+    position: relative;
+}
+
+.fade-box-container .image {
+    width: 320px;
+    height: auto;
+    opacity: 1;
+    display: block;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fade-box-container:hover .middle {
+    opacity: 1;
+}
+
+.fade-box-container:hover .image {
+    opacity: 0.5;
+}
+
+.middle-text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+
+/* Slide Container */
+.slid-container{
+    position: relative;
+}
+.slid-container .image{
+    width: 320px;
+    height: auto;
+}
+
+.slide-overlay{
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height: 0%;
+    transition: 0.5s ease;
+}
+
+.slid-container:hover .slide-overlay{
+    top: 0;
+    height: 100%;
+}
+
+.text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }

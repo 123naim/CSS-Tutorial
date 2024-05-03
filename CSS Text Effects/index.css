@@ -1,0 +1,56 @@
+/* Textover flow */
+.textOverflow1{
+    white-space: nowrap;
+    width: 150px;
+    border: 1px solid green;
+    overflow: hidden;
+    text-overflow: clip;
+}
+.textOverflow2{
+    white-space: nowrap;
+    width: 150px;
+    border: 1px solid green;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.textOverflow1:hover, .textOverflow2:hover{
+    overflow: visible;
+}
+
+/* Word Wrapping */
+.wordWarp1{
+    width: 11rem;
+    border: 1px solid green;
+    margin: 20px;
+}
+.wordWarp2{
+    width: 11rem;
+    border: 1px solid green;
+    margin: 20px;
+    word-wrap: break-word;
+}
+.wordWarp3{
+    width: 11rem;
+    border: 1px solid green;
+    margin: 20px;
+    word-break: keep-all;
+}
+.wordWarp4{
+    width: 11rem;
+    border: 1px solid green;
+    margin: 20px;
+    word-break: break-all;
+}
+
+
+/* Writing Mode */
+.writtingMode1{
+    writing-mode: horizontal-tb;
+}
+.writtingMode2{
+    writing-mode: vertical-rl;
+}
+.writtingMode3{
+    writing-mode: vertical-lr;
+}

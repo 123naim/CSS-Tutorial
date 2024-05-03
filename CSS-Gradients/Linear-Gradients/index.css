@@ -1,0 +1,49 @@
+section {
+    margin-right: 15px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+}
+
+div {
+    display: grid;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    border: 1px solid green;
+}
+
+.liniar-gradients1 {
+    background-image: linear-gradient(yellow, red);
+}
+
+.liniar-gradients2 {
+    background-image: linear-gradient(to right, yellow, red);
+}
+
+.liniar-gradients3 {
+    background-image: linear-gradient(to left, yellow, red);
+}
+
+.liniar-gradients4 {
+    background-image: linear-gradient(to bottom right, yellow, red);
+}
+.liniar-gradients5{
+    background-image: linear-gradient(180deg, yellow, red);
+}
+.liniar-gradients6{
+    background-image: linear-gradient(yellow, red, green);
+}
+.liniar-gradients6{
+    background-image: linear-gradient(to right, yellow, red, green, violet, aqua, orange, yellowgreen, black);
+}
+.liniar-gradients7{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,2));
+}
+.liniar-gradients8{
+    background-image: repeating-linear-gradient(yellow, red 10%, green 20%);
+}
