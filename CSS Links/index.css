@@ -1,0 +1,23 @@
+.btn:link {
+    color: red;
+    background-color: yellow;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 20px;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+    background-color: cyan;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
