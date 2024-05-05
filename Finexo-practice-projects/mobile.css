@@ -75,4 +75,21 @@
     }
 
 
+
+    /* This is why choose us container */
+    .why-choose-container{
+        margin: 80px 30px;
+        text-align: justify;
+    }
+
+
+    /* This is Our Team Section style here */
+    .team-section-content{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+    }
+
+
 }

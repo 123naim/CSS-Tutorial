@@ -13,11 +13,13 @@
     color: white;
     font-size: 17px;
 }
-.shared-btn:hover{
+
+.shared-btn:hover {
     background-color: hsl(194, 93%, 21%);
     cursor: pointer;
 }
-.common-font-color{
+
+.common-font-color {
     color: #00bbf0;
 }
 
@@ -32,9 +34,10 @@
 }
 
 /* This is navbar style here */
-.menu-icon{
+.menu-icon {
     content-visibility: hidden;
 }
+
 .nav-container {
     display: flex;
     justify-content: space-between;
@@ -101,7 +104,7 @@
     font-family: sans-serif;
 }
 
-.banner-image-container>img{
+.banner-image-container>img {
     width: 500px;
 }
 
@@ -119,6 +122,7 @@
         left: 0px;
         top: 0px;
     }
+
     /* 50%{
         left: 0%;
         bottom: 50px;
@@ -139,38 +143,45 @@
 
 /* This is Main Content Style here */
 /* This is Our service section style here */
-.our-service-container{
+.our-service-container {
     max-width: 85%;
     margin: 80px auto 80px;
     text-align: center;
 }
-.our-service-content{
+
+.our-service-content {
     margin-bottom: 40px;
 }
-.our-service-title{
+
+.our-service-title {
     font-size: 35px;
     font-family: sans-serif;
     margin-bottom: 16px;
 }
-.our-service-card-container{
+
+.our-service-card-container {
     display: flex;
     gap: 30px;
     margin-bottom: 40px;
 }
-.our-service-card-content{
+
+.our-service-card-content {
     background-color: #f8f8f9;
     padding: 25px;
 }
-.our-service-card-img{
+
+.our-service-card-img {
     width: 75px;
     margin-bottom: 20px;
 }
-.our-service-card-desc{
+
+.our-service-card-desc {
     margin: 10px 0;
     font-size: 15px;
     color: rgb(94, 93, 93);
 }
-.service-read-more{
+
+.service-read-more {
     font-size: 17px;
     text-decoration: none;
     color: #00204a;
@@ -178,31 +189,180 @@
 }
 
 /* this is About us section */
-.about-us-section{
+.about-us-section {
     text-align: center;
     background-color: #00204a;
     padding: 45px 100px;
 }
 
-.about-content{
+.about-content {
     display: flex;
     gap: 40px;
     align-items: center;
 }
-.about-img{
+
+.about-img {
     width: 560px;
 }
-.about-text-container{
+
+.about-text-container {
     text-align: start;
 }
-.about-text-title{
+
+.about-text-title {
     color: white;
     font-size: 30px;
     margin-bottom: 20px;
 }
-.about-text-desc{
+
+.about-text-desc {
     font-size: 17px;
     color: white;
     margin-bottom: 30px;
     line-height: 23px;
+}
+
+/* Why choose us section style here */
+.why-choose-container {
+    text-align: center;
+    margin: 80px 150px;
+}
+
+.why-choose-title {
+    text-align: center;
+    font-size: 30px;
+}
+
+.why-choose-content {
+    margin-top: 45px;
+    display: grid;
+    justify-items: center;
+}
+
+.why-choose-img-container {
+    width: 120px;
+    height: 120px;
+    border: 4px solid #00204a;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.why-choose-content-img {
+    width: 55px;
+}
+
+.why-choose-content-title {
+    margin-bottom: 20px;
+    letter-spacing: 1.5px;
+}
+
+.why-choose-content-container {
+    margin-bottom: 45px;
+}
+
+
+
+/* This is our team section */
+.team-section {
+    margin-bottom: 30px;
+    background-color: #00204a;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.team-section-content {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.team-membar-info-card {
+    background-color: #00285b;
+    padding: 30px 39px;
+    border-radius: 7px;
+}
+
+.team-membar-img {
+    width: 120px;
+    border: 4px solid white;
+    border-radius: 50%;
+}
+
+.team-membar-social-link {
+    margin-top: 60px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.team-membar-social-link>i {
+    color: white;
+    font-size: 25px;
+}
+
+.team-membar-social-link>i:hover {
+    color: #00bbf0;
+    cursor: pointer;
+}
+
+
+/* This section is cumtomer review */
+.customar-review-section {
+    margin: 100px;
+}
+
+.customar-review-container {
+    display: flex;
+    gap: 60px;
+    margin-top: 100px;
+}
+
+.customar-review {
+    position: relative;
+    background-color: white;
+    padding: 70px 30px 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.customar-img {
+    border-radius: 50%;
+}
+
+.customar-img-container {
+    position: absolute;
+    top: -60px;
+    left: 25px;
+}
+
+.client-name-and-sharp {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3px;
+}
+
+.client-name{
+    font-weight: 600;
+    color: rgb(63, 62, 62);
+}
+
+.sharp {
+    font-size: 20px;
+    align-items: center;
+    /* color: #353535; */
+}
+
+.client-subtitle {
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: #353535;
+}
+.client-desc{
+    color: #353535;
+}
+
+.btn-container{
+    display: flex;
 }
