@@ -1,0 +1,78 @@
+@media screen and (max-width: 500px) {
+
+    /* This is header section style here */
+    .header-container {
+        background-position: top;
+        background-size: 100vh 99%;
+    }
+
+    /* This is navbar style here */
+    .menu-icon {
+        content-visibility: visible;
+        color: white;
+        font-size: 25px;
+    }
+
+    .nav-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 30px 0;
+    }
+
+    .menu-container>ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 17px;
+        content-visibility: hidden;
+    }
+
+
+
+    /* This is banner section design */
+    .banner-container {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+        padding: 0 auto;
+    }
+
+    .banner-image-container>img {
+        width: 400px;
+    }
+
+    .banner-title {
+        color: white;
+        font-size: 50px;
+        font-family: sans-serif;
+        padding-top: 20px;
+    }
+
+
+    /* This is Main Content Style here */
+    /* This is Our service section style here */
+    .our-service-card-container{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-bottom: 40px;
+    }
+
+
+    /* This is about section style here */
+    .about-us-section{
+        padding: 45px 30px;
+    }
+    .about-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-img{
+        width: 400px;
+    }
+
+
+}

@@ -1,35 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Finexo</title>
+
+    <!-- This is Style file -->
     <link rel="stylesheet" href="desktop.css">
+    <link rel="stylesheet" href="mobile.css">
+
+
+    <!-- This is font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Font -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+
 </head>
+
 <body>
     <!-- This is Header section -->
     <header class="header-container">
         <!-- This is Menu Section -->
         <nav class="nav-container">
             <div class="logo">
-                <h3>Finexo</h3>
+                <h3 class="logo-name">Finexo</h3>
             </div>
             <div class="menu-container">
+                <span><i class="fa-solid menu-icon fa-bars"></i></span>
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="#"><span class="home-menu">Home</span></a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Service</a></li>
-                    <li><a href="#">Service</a></li>
-                    <li><a href="#">Service</a></li>
-                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Why Us</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a class="user-login" href="#"><i class="fa-solid fa-user"></i>Login</a></li>
+                    <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
                 </ul>
             </div>
         </nav>
 
         <!-- This is Banner Section -->
-        <section>
-
+        <section class="banner-container">
+            <div class="banner-content">
+                <h1 class="banner-title">CRYPTO <br> CURRENCY</h1>
+                <p class="banner-desc">Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat
+                    hic? Esse dicta aliquid
+                    error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus
+                    repellat modi impedit sequi.</p>
+                <button class="shared-btn">Read More</button>
+            </div>
+            <div class="banner-image-container">
+                <img src="./image/slider-img.png" alt="">
+            </div>
         </section>
     </header>
+
+    <!-- This is Main Content section -->
+    <main>
+        <!-- This is Our Service Section -->
+        <section class="our-service-container">
+            <div class="our-service-content">
+                <h2 class="our-service-title">Our <span class="common-font-color">Service</span></h2>
+                <p>
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration
+                </p>
+            </div>
+            <div class="our-service-card-container">
+                <div class="our-service-card-content">
+                    <img class="our-service-card-img" src="./image/s1.png" alt="">
+                    <h3 class="our-service-card-title">CURRENCY WALLET</h3>
+                    <p class="our-service-card-desc">fact that a reader will be distracted by the readable content of a
+                        page when looking at its layout. The point of using</p>
+                    <a class="service-read-more" href="#">Read More</a>
+                </div>
+                <div class="our-service-card-content">
+                    <img class="our-service-card-img" src="./image/s2.png" alt="">
+                    <h3 class="our-service-card-title">CURRENCY WALLET</h3>
+                    <p class="our-service-card-desc">fact that a reader will be distracted by the readable content of a
+                        page when looking at its layout. The point of using</p>
+                    <a class="service-read-more" href="#">Read More</a>
+                </div>
+                <div class="our-service-card-content">
+                    <img class="our-service-card-img" src="./image/s3.png" alt="">
+                    <h3 class="our-service-card-title">CURRENCY WALLET</h3>
+                    <p class="our-service-card-desc">fact that a reader will be distracted by the readable content of a
+                        page when looking at its layout. The point of using</p>
+                    <a class="service-read-more" href="#">Read More</a>
+                </div>
+            </div>
+            <div>
+                <button class="shared-btn">View All</button>
+            </div>
+        </section>
+
+        <!-- This is About us Section -->
+        <section class="about-us-section">
+            <div class="our-service-content">
+                <h2 style="color: white;" class="our-service-title">About <span class="common-font-color"> Us</span>
+                </h2>
+                <p style="color: white;">
+                    Magni quod blanditiis non minus sed aut voluptatum illum quisquam aspernatur ullam vel beatae rerum
+                    ipsum voluptatibus
+                </p>
+            </div>
+            <div class="about-content">
+                <div class="about-img-container">
+                    <img class="about-img" src="./image/about-img.png" alt="">
+                </div>
+                <div class="about-text-container">
+                    <h3 class="about-text-title">We Are Finexo</h3>
+                    <p class="about-text-desc">
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                        alteration in some form, by injected humour, or randomised words which don't look even slightly
+                        believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                        anything embarrassing hidden in the middle of text. All <br>
+                        <br>
+                        Molestiae odio earum non qui cumque provident voluptates, repellendus exercitationem, possimus
+                        at iste corrupti officiis unde alias eius ducimus reiciendis soluta eveniet. Nobis ullam ab
+                        omnis quasi expedita.
+                    </p>
+                    <button class="shared-btn">Read More</button>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
 </body>
+
 </html>
