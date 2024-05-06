@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-section {
+    position: relative;
+    background-color: #f9eeff;
+    height: 130vh;
+}
+
+.background-img-desktop {
+    width: 100%;
+    content-visibility: visible;
+}
+.background-img-mobile {
+    content-visibility: hidden;
+}
+
+.card::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border: 4px solid transparent;
+    border-radius: 8px;
+    background-clip: padding-box;
+}
+
+.card::-webkit-scrollbar {
+    width: 16px;
+    height: 300px;
+}
+
+.card {
+    position: absolute;
+    left: 33%;
+    top: 150px;
+    width: 470px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px 25px 25px 30px;
+    box-shadow: 5px 5px 20px black;
+    overflow-y: scroll;
+}
+
+.card-title {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+/* Card FAQs section style here */
+.card-faq-container {
+    margin-top: 20px;
+}
+
+.card-faq-content {
+    border-bottom: 1px solid hsla(300, 4%, 71%, 0.3);
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.question-title {
+    color: #290c2d;
+}
+
+.question {
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.change .question-minus-icon {
+    display: block;
+}
+
+/* .block{
+    display: block;
+}
+.none{
+    display: none;
+} */
+
+.change .question-plus-icon {
+    display: none;
+}
+.question-minus-icon {
+    display: none;
+}
+
+.answer {
+    display: none;
+    color: #b3a8b3;
+    font-size: 15px;
+}

@@ -53,7 +53,7 @@
 
     /* This is Main Content Style here */
     /* This is Our service section style here */
-    .our-service-card-container{
+    .our-service-card-container {
         display: flex;
         flex-direction: column;
         gap: 30px;
@@ -62,33 +62,51 @@
 
 
     /* This is about section style here */
-    .about-us-section{
+    .about-us-section {
         padding: 45px 30px;
     }
-    .about-content{
+
+    .about-content {
         display: flex;
         flex-direction: column;
     }
 
-    .about-img{
+    .about-img {
         width: 400px;
     }
 
 
 
     /* This is why choose us container */
-    .why-choose-container{
+    .why-choose-container {
         margin: 80px 30px;
         text-align: justify;
     }
 
 
     /* This is Our Team Section style here */
-    .team-section-content{
+    .team-section-content {
         display: flex;
         flex-direction: column;
         gap: 20px;
         justify-content: center;
+    }
+
+
+    /* This section is cumtomer review */
+    .customar-review-section {
+        margin: 100px 30px 10px;
+    }
+
+    .customar-review-container {
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        margin-top: 100px;
+    }
+
+    .btn-container {
+        content-visibility: hidden;
     }
 
 

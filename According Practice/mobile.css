@@ -1,0 +1,17 @@
+@media screen and (max-width: 500px){
+    .background-img-desktop {
+        content-visibility: hidden;
+    }
+    .background-img-mobile {
+        width: 100%;
+        content-visibility: visible;
+        margin-top: -20px;
+    }
+
+    .card {
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 330px;
+    }
+}

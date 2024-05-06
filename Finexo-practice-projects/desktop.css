@@ -311,7 +311,7 @@
 
 /* This section is cumtomer review */
 .customar-review-section {
-    margin: 100px;
+    margin: 100px 100px 50px;
 }
 
 .customar-review-container {
@@ -365,4 +365,18 @@
 
 .btn-container{
     display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    content-visibility: visible;
+}
+.btn-container>button{
+    padding: 20px;
+    border: none;
+    box-shadow: 1px 1px 10px gray;
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 50px;
+    color: gray;
 }
