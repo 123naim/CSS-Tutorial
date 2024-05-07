@@ -1,0 +1,61 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+.section-container{
+    display: flex;
+    justify-content: center;
+    padding: 20px 70px;
+    background-color: #fafafa;
+}
+.four-section-card-title{
+    text-align: center;
+}
+.sub-title{
+    font-size: 28px;
+    color: #88878d;
+    margin-bottom: 8px;
+}
+.main-title{
+    color: #505165;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* Card design here */
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+    align-items: center;
+    width: 100%;
+}
+.card{
+    padding: 30px;
+    background-color: white;
+    box-shadow: 5px 5px 20px gray;
+    width: 300px;
+    border-radius: 7px;
+}
+.img-container{
+    display: flex;
+    justify-content: end;
+}
+.img-container>img{
+    width: 55px;
+}
+.card1{
+    border-top: 3px solid #48bdbe;
+}
+.card2{
+    border-top: 3px solid #b94848;
+    margin-bottom: 25px;
+}
+.card3{
+    border-top: 3px solid #f9a828;
+}
+.card4{
+    border-top: 3px solid #428aca;
+    
+}

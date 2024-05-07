@@ -1,0 +1,12 @@
+@media screen and (max-width: 500px) {
+    .section-container{
+        padding: 50px 2px;
+    }
+    .card-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .four-section-card-title{
+        margin-bottom: 20px;
+    }
+}
