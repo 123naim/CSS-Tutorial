@@ -1,0 +1,126 @@
+@media screen and (max-width: 500px) {
+
+    /* navber */
+    .menu-bar {
+        content-visibility: visible;
+        color: black;
+        font-size: 25px;
+    }
+
+    .menu-container {
+        content-visibility: hidden;
+    }
+
+    .login-container {
+        content-visibility: hidden;
+    }
+
+    /* this is hero section style here */
+    .hero-img {
+        height: 80dvw;
+    }
+
+    .hero-content {
+        width: 95%;
+        height: 220px;
+        padding: 0 20px;
+
+        & h2 {
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 54.56px;
+            margin-top: 10px;
+            border: none;
+        }
+    }
+
+    /* form section */
+    .form {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+        justify-items: center;
+        margin-top: 5px;
+    }
+
+    .how-much {
+        grid-column: 1 / 2;
+    }
+
+
+    /* Favorite section style here */
+    .favorit-section {
+        margin-top: -7px;
+        padding: 20px 30px;
+
+        & h3 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 34px;
+            font-weight: 500;
+            line-height: 41.5px;
+        }
+    }
+
+    .icon-img {
+        width: 370px;
+        height: auto;
+    }
+
+
+
+    /* This is feature section */
+    .feature-section {
+        width: 100%;
+
+        & h3 {
+            margin-left: 60px;
+            margin-top: 60px;
+            margin-bottom: 60px;
+            font-size: 34px;
+            font-weight: 400;
+            line-height: 41.5px;
+        }
+
+        .feature-container {
+            flex-direction: column;
+            gap: 50px;
+        }
+    }
+
+
+    /* buy sell section style here */
+    .bue-sell-section {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+
+    }
+
+    .buy-sell-content {
+        width: 400px;
+    }
+
+    /* Get Started style here */
+    .get-started {
+        width: 100%;
+        height: 250px;
+    }
+
+    .get-started-heading {
+        padding: 30px;
+        font-size: 30px;
+    }
+
+    /* footer section */
+
+    .footer-container {
+        padding-top: 50px;
+        padding-left: 50px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+
+}
