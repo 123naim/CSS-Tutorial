@@ -110,6 +110,26 @@ body {
     }
 }
 
+.zapper-btn-container {
+    position: absolute;
+    left: 50%;
+    bottom: 11%;
+    transform: translate(-50%);
+}
+
+.zapper-btn {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 20px;
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+}
+.zapper-btn:hover {
+    background-color: white;
+    color: black;
+}
 
 /* form select tag style here */
 .form {
@@ -170,7 +190,8 @@ body {
         line-height: 41.5px;
     }
 }
-.icon-img{
+
+.icon-img {
     width: 1220px;
     height: 120px;
 }

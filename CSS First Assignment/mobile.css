@@ -34,6 +34,10 @@
         }
     }
 
+    .zapper-btn-container {
+        content-visibility: hidden;
+    }
+
     /* form section */
     .form {
         display: grid;
@@ -98,7 +102,7 @@
     }
 
     .buy-sell-content {
-        width: 400px;
+        width: 365px;
     }
 
     /* Get Started style here */
